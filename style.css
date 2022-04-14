@@ -1,0 +1,59 @@
+html, body {
+    background-color: white;
+    min-width: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  header {
+    color: #ff7315;
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  .container {
+    width: 50%;
+    align-self: center;
+    padding: 3em;
+}
+
+  .row {
+    padding: 1em;
+  }
+  
+  input#prix {
+    margin-bottom: 1em;
+    width: 50%;
+    padding: 1em;
+    border: solid;
+    border-radius: 3em;
+  }
+
+  button.btn.btn-primary {
+    width: 8em;
+    justify-content: center;
+    border-radius: 3em;
+}
+  
+  #instructions {
+    color: white;
+  }
+  
+  .instruction {
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 3em;
+  }
+  
+  .plus {
+    background-color: #f67280;
+  }
+  
+  .moins {
+    background-color: #ffa372;
+  }
+  
+  .fini {
+    background-color : #0c9463;
+  }
